@@ -1,4 +1,4 @@
-!W 10000 !CYCLE !RENAME !ARG 5 // !DOPART $1
+!W 10000 !CYCLE !RENAME !ARG 1 2 // !DOPART $1
 Title: uni_RR
  ID            !P
  herd          !A 
