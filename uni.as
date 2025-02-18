@@ -1,11 +1,11 @@
 !W 10000 !CYCLE !RENAME !ARG 1 2 3 4 5 6 7 8  // !DOPART $1
-Title: test_course
+Title: uni_rep
  ID            !P
  herd          !A 
- HYS           !I 155
+ HYS           !I 41
  parity		   !I 3
  ACC
- lact_week
+ lact_week     60
  avgCH4
  speaks
  npeaks
@@ -13,13 +13,13 @@ Title: test_course
  ratio
  CH4gr
  MeI
- npeaks100 !=std_npeaks !*100
- peID          !A 1200
-
+ peID          !A 1173
+ npeaks100 !=npeaks !*100
+ 
 ped.ped   !MAKE !CSV !SORT
 dat.dat  !SKIP !MAXIT 2000 !AISING !continue !TOLERANCE !MVINCLUDE 
 
-### UNIVARIATE NETHERLANDS ###
+### UNIVARIATE REPEATABILITY  ###
 
 !PART 1
 
